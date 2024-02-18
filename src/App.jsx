@@ -49,14 +49,14 @@ function App() {
 
     return (
         <DeveloperProfile
-            mode={'edit'}
+            mode={'readOnly'}
             data={data}
             onEdit={onEdit}
             onCustomizationChanged={onCustomizationChanged}
             options={{
-                locale: 'fr',
+                locale: 'en',
                 // side: 'back',
-                showContactInfos: false,
+                showContactInfos: true,
                 apiKeys: {
                     giphy: process.env.REACT_APP_GIPHY
                 },
@@ -67,21 +67,21 @@ function App() {
                 maxSkills: 6,
                 customization,
                 disableSortableExperience: false,
-                maxCardsPerRow: 3,
+                maxCardsPerRow: 2,
                 referenceData: {
-                    professions: ['Developpeur Front-End', 'Développeur Back-End']
+                    professions: []
                 }
             }}
-            additionalNodes={{
-                banner: {
-                    actionsButtons: mode === 'edit' && (
-                        <Button variant="outlined" onClick={handleClick} color={'light'}>
-                            <SaveIcon className={classes.saveIcon} />
-                            <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="Export" />
-                        </Button>
-                    )
-                }
-            }}
+            // additionalNodes={{
+            //     banner: {
+            //         actionsButtons: mode === 'edit' && (
+            //             <Button variant="outlined" onClick={handleClick} color={'light'}>
+            //                 <SaveIcon className={classes.saveIcon} />
+            //                 <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="Export" />
+            //             </Button>
+            //         )
+            //     }
+            // }}
         />
     );
 }

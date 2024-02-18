@@ -1,69 +1,99 @@
 {
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john.doe@mail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
+        "name": "William Chan 詹景崴",
+        "label": "Student",
+        "picture": "https://icons.veryicon.com/png/o/miscellaneous/commonly-used-icon-1/personal-25.png",
+        "email": "willy756.taiwan@gmail.com",
+        "phone": "",
+        "website": "",
+        "summary": "I'm a Data Science student and Python Developer at Yuntech.",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
+            "address": "",
+            "postalCode": "",
+            "city": "Yunlin",
+            "countryCode": "Taiwan",
+            "region": "Asia"
         },
         "profiles": [
             {
-                "network": "twitter",
-                "username": "@john"
-            },
-            {
-                "network": "Portfolio",
-                "url": "https://myawesome.portfolio.rocket.fr"
-            },
-            {
-                "network": "codingame",
-                "username": "ed3ee82f9630e99db32dec093b2ca07a0368002"
-            },
-            {
                 "network": "github",
-                "username": "clementdevos"
+                "username": "ChingWeiChan",
+                "url": "",
+                "id": "fa62c40f-8f57-44ce-97e1-dd49a14411d3"
             },
             {
                 "network": "linkedin",
-                "url": "https://www.linkedin.com/in/%F0%9F%A5%B3-cl%C3%A9ment-devos-4b832526/"
+                "url": "https://www.linkedin.com/in/chingweichan/",
+                "id": "52e6431f-2b13-44d0-a5ca-1ea5a983342f"
+            },
+            {
+                "id": "custom_0",
+                "network": "Leetcode",
+                "url": "https://leetcode.com/ching-wei2/"
+            },
+            {
+                "id": "custom_1",
+                "url": "https://www.hackerrank.com/profile/willy756_taiwan",
+                "network": "HackerRank"
             }
         ]
     },
     "work": [
         {
-            "name": "Samsung Engineering",
-            "position": "3D Cad Engineer",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "index": 0,
+            "id": "4c10a07b-b4ff-4bd1-9700-493e98e1a843",
+            "position": "gReach Associate (Software Engineer)",
+            "name": "Google",
+            "place": {
+                "name": "New Taipei, Taiwan"
+            },
+            "endDate": "2022-08-01",
+            "startDate": "2021-09-01",
+            "summary": "gReach Program 3.0\nGoogle for Taiwan | 擁抱多元平等包容\nOne of the video protagonists\nVideo in Google Taiwan Youtube offical channel\nhttps://youtu.be/ZQUVlsW68Zg",
+            "location": "New Taipei, Taiwan",
+            "stillEmployed": false
         },
         {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "index": 1,
+            "id": "6a2ccdba-79b0-4b4b-a2dd-1a95e99238f2",
+            "name": "Google",
+            "position": "gReach Associate (Software Engineer)",
+            "place": {
+                "name": "New Taipei, Taiwan"
+            },
+            "startDate": "2020-10-01",
+            "endDate": "2021-07-01",
+            "summary": "gReach Program 2.0\nPython Software Engineer Intern\nAndroid automated test and function maintenance\nThe development of Titan M chip test tools",
+            "location": "New Taipei, Taiwan",
+            "stillEmployed": false
         },
         {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "index": 2,
+            "id": "956c761d-6f93-4fca-b835-7d2aa40d5dfa",
+            "name": "UMC",
+            "position": "Campus Ambassador",
+            "place": {
+                "name": "Hsinchu City, Taiwan"
+            },
+            "endDate": "2020-07-01",
+            "startDate": "2019-08-01",
+            "summary": "Handle the administrative affairs of UMC office",
+            "location": "Hsinchu City, Taiwan",
+            "stillEmployed": false
+        },
+        {
+            "index": 3,
+            "id": "b5889973-1e38-4e5c-88c7-1323c0b9f6ad",
+            "name": "TSMC",
+            "position": "Campus Ambassador",
+            "place": {
+                "name": "Hsinchu City, Taiwan"
+            },
+            "endDate": "2019-06-01",
+            "startDate": "2018-07-01",
+            "summary": "Handle the administrative affairs of TSMC-NTHU\noffice",
+            "location": "Hsinchu City, Taiwan",
+            "stillEmployed": false
         }
     ],
     "volunteer": [
@@ -73,27 +103,27 @@
             "website": "http://organization.com/",
             "endDate": "2013-01-01",
             "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
+            "highlights": [
+                "Awarded 'Volunteer of the Month'"
+            ]
         }
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "position": 0,
+            "id": "01abe865-4829-4925-ad80-c32cc341ca67",
+            "institution": "National Yunlin University of Science and Technology",
+            "endDate": "2024-01-31T16:00:00.000Z",
+            "studyType": "Master",
+            "area": "Intelligent Data and Science"
         },
         {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "position": 1,
+            "id": "9906f9bb-364d-4eee-86f6-c6c2a74adb97",
+            "institution": "National Tsing Hua University",
+            "endDate": "2022-01-31T16:00:00.000Z",
+            "area": "Computer Science",
+            "studyType": "Bachelor (undergraduate)"
         }
     ],
     "awards": [
@@ -104,63 +134,58 @@
             "summary": "There is no spoon."
         }
     ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
-        }
-    ],
     "skills": [
         {
-            "name": "React",
-            "level": "Master",
+            "name": "Python",
+            "index": 0,
             "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "id": "ef3182e5-540d-43ec-ad8d-9d3b560b9a64"
         },
         {
-            "name": "Angular",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "NodeJS",
-            "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Firebase",
-            "level": "Master",
+            "name": "Numpy",
+            "index": 1,
             "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "id": "Numpy"
         },
         {
-            "name": "Gmail",
-            "level": "Master",
-            "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "Git",
+            "index": 2,
+            "value": 60,
+            "id": "Git"
         },
         {
-            "name": "K8S",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "Linux System",
+            "index": 3,
+            "value": 70,
+            "id": "Linux System"
+        },
+        {
+            "name": "PostgreSQL",
+            "index": 4,
+            "value": 30,
+            "id": "39a91ae6-6a2f-4fde-9d14-7578643c984b"
+        },
+        {
+            "name": "ChatGPT",
+            "index": 5,
+            "value": 60,
+            "id": "ChatGPT"
         }
     ],
     "languages": [
         {
-            "language": "English",
+            "language": "Mandarin",
             "value": 100,
-            "fluency": "Native speaker"
+            "fluency": "Native speaker",
+            "id": "951b79a8-731d-486e-a1af-af611ae95a68",
+            "index": 0
         },
         {
-            "language": "Italien",
-            "value": 15,
-            "fluency": "Native speaker"
+            "language": "English",
+            "value": 80,
+            "fluency": "Read & write",
+            "id": "d85c4e04-e9e9-4379-88a5-cbecbabeeb52",
+            "index": 1
         }
     ],
     "references": [
@@ -169,7 +194,16 @@
             "reference": "Reference..."
         }
     ],
-    "projects": [],
+    "projects": [
+        {
+            "date": "2023-01-31T16:00:00.000Z",
+            "name": "Optimization of Green Electricity Transfer",
+            "link": "https://github.com/ChingWeiChan/power_dispatch",
+            "description": "\n   在考慮綠電需求逐漸增加的情況下，有效分配有限的綠電資源並充分利\n用綠能，同時滿足客戶需求，是目前相當重要的議題。本計畫的目標是研發一\n套綠能轉供匹配最佳化的方法學和決策判斷邏輯，並且提供更完善的綠電案場\n管理介面，以此為基礎開發一個網頁應用系統。\n該系統使用 Python 著名資料科學套件 NumPy、Pandas，並使用 streamlit 套件作為網頁前後端，幫助使用者進行多個合約的轉供匹配，以降低 人工作業負荷，提高作業效率，並實現最佳的能源分配，以減少因匹配不佳而 產生的餘電問題，不僅確保客戶有最少的缺電總額，也能達到電廠最大利潤。 我們建立一個易於使用的網頁應用界面，讓使用者可以輕鬆設定合約、轉供上 限、上傳電廠與客戶資料，以及自助餐與個人餐計算方式，並觀察各種匹配方 案的效果，該系統也提供圖表視覺化、CSV 檔輸出，以便使用者能夠根據實際 情況進行調整和優化。\n綠電案場管理介面上，我們使用 PostgreSQL 作為資料庫，並串接到 streamlit 網頁中，透過簡單的新增、刪除、修改選項，進行案場的更新，同 時，提供了不同的視角來呈現整個管理系統，包括了以契約、客戶、電廠的角 度來呈現，這能有效的讓管理者發現問題或者更有效率地進行商業決策。\n最佳化系統設計上，我們以個人餐計算方式，利用基因演算法找出最適 合的電廠分配比例，同時，也額外提供可以設定特定客戶權重的方法，讓使用 者有其他因素考量時，可以提高或減少特定客戶比例，讓決策者可以有更多的 分配方案。同時，由於該系統時間複雜度相當大，我們也持續優化執行速度和 程式碼，不僅透過 Python 套件 cprofile 和 snakeviz 找出特別慢的程式碼，也使 用 streamlit 中的效能分析，將可能會重複計算的數值先儲存至雜湊表，減少再 次運算的時間，與期中報告進度比起來，至少執行時間減少了 60%以上。",
+            "id": "51ae0204-fb5a-4464-b905-088a807caafc",
+            "endDate": "2023-02-01"
+        }
+    ],
     "specific": {
         "basics": {
             "visaSponsorship": true,
@@ -177,19 +211,17 @@
         },
         "dreamJob": {
             "locations": [
-                {
-                    "name": "Valenciennes, France"
-                },
-                {
-                    "name": "Lille, France"
-                },
-                {
-                    "name": "Paris,France"
-                }
+                "Taipei,Taiwan"
             ],
             "remoteFrequency": {
-                "frequency": "fullTime",
-                "daysPerWeek": 2
+                "frequency": "no",
+                "daysPerWeek": null
+            },
+            "perks": {
+                "mood": true,
+                "salary": true,
+                "perks": true,
+                "undefined": "Accesslbility"
             }
         },
         "currentJob": {
@@ -202,17 +234,19 @@
             "studiesLevel": null
         },
         "work": {
-            "contractTypes": ["permanent", "freelance", "internship"],
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
+            "contractTypes": [
+                "permanent",
+                "fixedTerm"
+            ],
             "searchState": "activelySearching",
             "experienceYears": 0,
             "codeExperienceYears": 2,
             "otherExperienceYears": 3
         },
         "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
+            "embedUrl": "https://open.spotify.com/embed/playlist/20itAjys5a5dAflpm3X5OB?utm_source=generator&theme=0"
         },
-        "interestedBy": "Angular, la blochain et les chatons."
+        "interestedBy": "Computer Science\nAccessibility\nSwimming\nPhotography\n\n"
     },
     "resumeCustomization": {
         "imageHeader": {
@@ -226,7 +260,7 @@
             },
             {
                 "type": "skills",
-                "variant": 0
+                "variant": 3
             },
             {
                 "type": "dreamjob",
@@ -268,6 +302,49 @@
         "fields": {
             "work": {
                 "customDateFormat": "YYYY"
+            }
+        },
+        "theme": {
+            "palette": {
+                "primary": {
+                    "50": "#ebebeb",
+                    "100": "#d6d7d7",
+                    "200": "#aeafaf",
+                    "300": "#858888",
+                    "400": "#5d6060",
+                    "500": "#343838",
+                    "600": "#2a2d2d",
+                    "700": "#1f2222",
+                    "800": "#151616",
+                    "900": "#0a0b0b",
+                    "contrastDefaultColor": "light"
+                },
+                "secondary": {
+                    "50": "#e6eff0",
+                    "100": "#ccdfe1",
+                    "200": "#99bfc4",
+                    "300": "#669fa6",
+                    "400": "#337f89",
+                    "500": "#005f6b",
+                    "600": "#004c56",
+                    "700": "#003940",
+                    "800": "#00262b",
+                    "900": "#001315",
+                    "contrastDefaultColor": "light"
+                },
+                "tertiary": {
+                    "50": "#e6f4f5",
+                    "100": "#cce8ec",
+                    "200": "#99d1d8",
+                    "300": "#66bac5",
+                    "400": "#33a3b1",
+                    "500": "#008c9e",
+                    "600": "#00707e",
+                    "700": "#00545f",
+                    "800": "#00383f",
+                    "900": "#001c20",
+                    "contrastDefaultColor": "light"
+                }
             }
         }
     }

@@ -1,8 +1,8 @@
 {
     "homepage": "https://ChingWeiChan.github.io/my-resume/",
-    "name": "@welovedevs/react-ultimate-resume",
+    "name": "William-profile",
     "version": "1.3.27-beta.0",
-    "description": "Developer profile for W3D",
+    "description": "William's profile",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
     "types": "dist/cjs/package/index.d.ts",
@@ -21,9 +21,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/welovedevs/react-ultimate-resume.git"
+        "url": "git+https://github.com/ChingWeiChan/my-resume.git"
     },
-    "author": "WeLoveDevs.com",
+    "author": "ChingWeiChan",
     "license": "AGPLv3",
     "peerDependencies": {
         "formik": "^2.1.2",
